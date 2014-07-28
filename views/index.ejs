@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+
+    <form id="form" action="position">
+      
+      <label for="latitude">Latitude</label>
+      <input type="text" id="latitude" name="latitude" >
+
+      <label for="longitude">Longitude</label>
+      <input type="text" id="longitude" name="longitude" >
+
+      <button id="search" type="submit">Search</button>
+
+    </form>
+
+    <ul id="result"></ul>
+
+    <script type="text/javascript" src="javascripts/main.js"></script>
+
+  </body>
+</html>
