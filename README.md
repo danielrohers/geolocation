@@ -5,7 +5,9 @@ Example geolocation with geocoder
 
 
 ## Install
-> npm install
+> git clone git@github.com:danielrohers/geolocation.git
+
+> cd geolocation && npm install
 
 ## Run
 > npm start
